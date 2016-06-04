@@ -1,5 +1,5 @@
 {
-  "name": "reduxPlayground",
+  "name": "react-redux-image-search",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
