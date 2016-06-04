@@ -1,0 +1,52 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.list-group-item {
+  text-align: center;
+  background: none;
+  input {
+    margin: 20px;
+  }
+}
+
+.initialImage {
+  margin-top: 150px;
+}
+
+.extraMessage {
+  font-size: 3em;
+  border: 2px solid silver;
+  border-radius: 20px;
+  background: white;
+  opacity: 0.5;
+  color: rgb(40,50,55);
+}
+
+.mainHeader {
+  @extend .extraMessage;
+}
+.searchDiv {
+  display: table;
+  width: 100% !important;
+}
+
+.searchButton {
+  background: white !important;
+  border: rgb(40,50,55) !important;
+  &:hover {
+    background: rgb(40,50,55) !important;
+    color: white !important;
+  }
+}
