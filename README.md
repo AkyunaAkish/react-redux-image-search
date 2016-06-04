@@ -1,4 +1,4 @@
-# React.JS Redux Images Search Application
+# React.JS Redux Image Search Application
 
 * Built to get practice with react/redux/axios/webpack
 
